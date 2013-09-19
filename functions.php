@@ -1,4 +1,11 @@
 <?php
+/**
+ *  gstlt.info WP theme
+ *
+ * @package     gstlt-info
+ * @author      Grzegorz Adamowicz (gadamowicz@gstlt.info)
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
 
 	register_sidebar( array(
 		'name' => __( 'Main Sidebar', 'main-sidebar' ),

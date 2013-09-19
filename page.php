@@ -1,14 +1,10 @@
 <?php
 /**
- * The template for displaying all pages.
+ *  gstlt.info WP theme
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
- *
- * @package WordPress
- * @subpackage gstlt_eleven
+ * @package     gstlt-info
+ * @author      Grzegorz Adamowicz (gadamowicz@gstlt.info)
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 get_header(); ?>

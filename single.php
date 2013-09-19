@@ -1,10 +1,10 @@
 <?php
 /**
- * The Template for displaying all single posts.
+ *  gstlt.info WP theme
  *
- * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @package     gstlt-info
+ * @author      Grzegorz Adamowicz (gadamowicz@gstlt.info)
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 get_header(); ?>
