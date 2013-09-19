@@ -1,0 +1,86 @@
+/*
+Theme Name: gstlt.info
+Theme URI: http://gstlt.info
+Author: gstlt
+Author URI: http://gstlt.info
+Description: Private blog template - remixed from dozen others temaplates
+Version: 0.2
+License: GNU General Public License
+License URI: license.txt
+Tags: red
+*/
+
+*{margin:0;padding:0;}:focus,:active {outline:0}ul,ol{list-style:none}h1,h2,h3,h4,h5,h6,pre,code {font-weight: normal; color: #000; font-size:1em;}a img{border:0}
+body { font: 18px Arial, Sans-Serif; background: #fff; color: #777; }
+
+a { text-decoration: none; color: #2D648A; }
+a:hover, a:focus { color: #000; }
+p  { margin: 0 0 10px; line-height: 1.6em; }
+.x { clear: both; }
+.line { clear: both; padding: 15px 0 0; border-bottom: 1px solid #ddd; margin: 0 0 35px; }
+
+/* headings */
+h1 { font-size: 2em; font-weight: bolder; letter-spacing: -2px; margin: 0 0 14px; line-height: 1.3em; color: #333; }
+h1 span { font-size: 1.84em; color: #B00000; }
+h2 { font-size: 1.1em; margin: 0 0 14px; padding: 3px 0 5px; }
+h3 { font-size: 1.6em; margin: 30px 0 0 0; padding: 0 0 14px 0; }
+h4 { font-size: 1.1em; margin: 0 0 14px; padding: 3px 0 5px; }
+h5 { margin: 0 0 14px; font-size: 1.1em; }
+
+article { padding: 5px 0 10px 0; line-height: 1.1em;}
+ol { list-style-type: decimal; margin: 10px 0 10px 30px;}
+ul { list-style-type: disc; margin: 10px 0 10px 25px;}
+
+#main { margin: 0 auto; width: 70%; }
+
+/* main menu */
+.menu { margin: 0 0 50px; }
+.menu li  { list-style-type: none; display: inline; }
+.menu li a { float: left; text-transform: uppercase; font-size: 14px; color: #000; font-weight: bold; margin: 0 25px 0 0; }
+.menu li a:hover { color: #2D648A; }
+
+/* sidebar */
+#sidebar ul { list-style-type: none; margin: 0 0 0 10px; }
+#sidebar { width: 25%; float: right; margin-bottom: 15px;}
+#sidebar h3 { margin-top: 8px; }
+
+/* #pitch { border-bottom: 1px solid #ddd; margin: 0 0 40px; padding: 100px 400px 15px 0; background: url(images/pitch.jpg) no-repeat right bottom; } */
+#pitch { border-bottom: 1px solid #ddd; margin: 0 0 30px; padding: 40px 200px 0 0; }
+#pitch a {color: #B00000; text-decoration: none;}
+#pitch p { font-size: 1.04em; }
+
+/* news */
+#content { width: 65%; float: left;}
+
+#older-newer { display: block; width: 100%; overflow: hidden; margin: 5px 0; }
+
+.date { float: left; font-size: .8em; width: 25px; padding: 5px 0 0; margin: 0 0 3px; color: #999; }
+.date span { font-size: 1.5em; }
+.news { float: right; width: 250px; }
+.col h4 { padding: 0 0 0 35px; }
+
+/* section line */
+.section { clear: both; border-top: 1px solid #ddd; margin: 0 0 30px; }
+.section p { position: relative; margin: -8px 0 0 27px; padding: 0 8px; font-size: .74em; background: #fff; float: left; }
+
+/* updates */
+#updates { float: right; border: 1px solid #ddd; height: 105px; padding: 20px 10px 0; width: 266px; }
+#updates p { font-size: .84em; }
+#updates h5 { margin: 0 0 15px; }
+label { display: block; font-size: .8em; color: #999; text-transform: uppercase; }
+input.textfield { padding: 4px; border: 1px solid #ccc; width: 200px; }
+input.submit { background: #fff; border: 0; font-weight: bold; font-size: .94em; }
+
+/* footer */
+#footer { clear: both; font-size: 0.7em; padding: 0 0 10px; border-top: 1px solid #ddd; }
+#footer a { margin: 0 15px 0 0; border-bottom: 1px dotted #ccc; }
+#links { float: right; }
+.edit-link { margin: 0 0 0 10px; font-weight: bold; }
+.entry-meta { font-size: 12px; margin: 0; line-height: .8em; }
+
+/* Other things with WP formatting */
+.aligncenter { margin-left: auto; margin-right: auto; text-align: center; }
+.alignleft { float: left; }
+.alignright { float: right; }
+.wp-caption { border: 1px solid black; background-color: #FAFA; }
+.wp-caption-text { font-size: 0.6em; }
