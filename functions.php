@@ -15,3 +15,13 @@
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
+
+// revert to 2-column dashboard
+function gstlt_screen_layout_columns($columns) {
+    $columns['dashboard'] = 2;
+    return $columns;
+}
+add_filter('screen_layout_columns', 'gstlt_screen_layout_columns');
+
+function gstlt_screen_layout_dashboard() { return 2; }
+add_filter('get_user_option_screen_layout_dashboard', 'gstlt_screen_layout_dashboard');
